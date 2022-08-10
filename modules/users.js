@@ -14,7 +14,7 @@ function indexOf (user)
         {
             bcrypt.compare(user.pass, suser.pass, function(err, res) {
                 if(res == true) return i;
-              });  
+            });  
         }
     }
     return -1;
